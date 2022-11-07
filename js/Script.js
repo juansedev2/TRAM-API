@@ -9,7 +9,7 @@ function definirLimite() {
     // ! Primero necesito hacer la limitante, en este caso solo quiero 150 personajes, no quiero más
     let limite = "/[";
 
-    for(let i = 1; i<= 200; i++){
+    for(let i = 1; i<= 100; i++){
         limite += String(i) + ",";
     }
 
