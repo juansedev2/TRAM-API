@@ -11,6 +11,7 @@ body{
     --color-titulos: rgb(226, 226, 226);
     --color-parrafos: rgb(226, 226, 226);
     --color-fondo-parrafos: rgba(0, 0, 0, 0.593);
+    --color-fondo-parrafos-2: rgba(0, 0, 0, 0.772);
 }
 header{
     margin: 4% 0;
@@ -41,7 +42,7 @@ article{
     margin: 4%;
     padding: 2%;
     color: var(--color-titulos);
-    background-color: var(--color-fondo-parrafos);
+    background-color: var(--color-fondo-parrafos-2);
     border: 3px solid black;
     border-radius: 15px;
 }
@@ -51,7 +52,7 @@ article h1{
     font-size: 2.1rem;
 }
 article p{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     word-spacing: 1px;
     line-height: 2.4;
 }
