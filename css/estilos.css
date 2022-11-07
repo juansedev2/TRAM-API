@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../img/RM1B.png");
+    background-attachment: fixed;
+}
+:root{
+    --color-titulos: rgb(226, 226, 226);
+    --color-parrafos: rgb(226, 226, 226);
+    --color-fondo-parrafos: rgba(0, 0, 0, 0.593);
+}
+header{
+    margin: 4% 0;
+    text-align: center;
+    color: var(--color-titulos);
+    font-weight: bolder;
+}
+header > h1, h2{
+    margin: 4% 0;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+header h1{
+    width: 80%;
+    margin: 20px auto;
+    font-size: 4rem;
+    background-color: var(--color-fondo-parrafos);
+}
+header h2{
+    width: 80%;
+    margin: 20px auto;
+    font-size: 2.2rem;
+    color: var(--color-titulos);
+    background-color: var(--color-fondo-parrafos);
+    padding-bottom: 10px;
+}
+article{
+    margin: 4%;
+    padding: 2%;
+    color: var(--color-titulos);
+    background-color: var(--color-fondo-parrafos);
+    border: 3px solid black;
+    border-radius: 15px;
+}
+article h1{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 2.1rem;
+}
+article p{
+    font-size: 1.3rem;
+    word-spacing: 1px;
+    line-height: 2.4;
+}
+section{
+    color: var(--color-titulos);
+    background-color: var(--color-fondo-parrafos);
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+section h1{
+    font-size: 2.1rem;
+    text-align: center;
+}
+main{
+    background-color: var(--color-fondo-parrafos);
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 5% auto;
+    width: 92%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+div.contenedor_personaje{
+    margin: 1.5% 0;
+    color: var(--color-titulos);
+    text-align: center;
+}
+div.contenedor_personaje h2{
+    font-size: 2.2rem;
+}
+div.contenedor_personaje h3{
+    font-size: 1.3rem;
+    margin: 10px 0;
+    font-weight: bolder;
+}
+div.contenedor_personaje img{
+    border-radius: 50px;
+}
+footer{
+    background-color: var(--color-fondo-parrafos);
+    color: var(--color-titulos);
+    text-align: center;
+    padding: 3%;
+    font-weight: bolder;
+}
+footer h1{
+    color: var(--color-titulos);
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer h2{
+    border: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
