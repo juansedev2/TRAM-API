@@ -120,7 +120,7 @@ footer h2{
 footer a{
     color: var(--color-enlaces);
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     body{
         background-image: url("../img/RMmovil2.jpg");
         background-size: 100%;
