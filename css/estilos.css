@@ -12,6 +12,8 @@ body{
     --color-parrafos: rgb(226, 226, 226);
     --color-fondo-parrafos: rgba(0, 0, 0, 0.593);
     --color-fondo-parrafos-2: rgba(0, 0, 0, 0.772);
+    --color-fondo-parrafos-3: rgba(0, 0, 0, 0.82);
+    --color-enlaces: rgb(176, 9, 92);
 }
 header{
     margin: 4% 0;
@@ -114,4 +116,42 @@ footer h2{
     margin: 0;
     padding: 0;
     padding-bottom: 20px;
+}
+footer a{
+    color: var(--color-enlaces);
+}
+@media (max-width: 400px) {
+    body{
+        background-image: url("../img/RMmovil2.jpg");
+        background-size: 100%;
+    }
+     header h1, header h2, footer, main, section, article{
+        background-color: var(--color-fondo-parrafos-3);
+    }
+    header h1{
+        font-size: 2rem;
+        
+    }
+    header h2{
+        font-size: 1.5rem;
+    }
+    article h1{
+        font-size: 1.8rem;
+    }
+    article p{
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+    section{
+        width: 70%;
+    }
+    section h1{
+        font-size: 1.8rem;
+    }
+    footer h1{
+        font-size: 1.5rem;
+    }
+    footer h2{
+        font-size: 1.2rem;
+    }
 }
