@@ -33,7 +33,7 @@ function consultarPersonajes(url_personajes, publicarPersonajes) {
 function publicarPersonajes(personajes) {
 
     personajes.forEach(personaje => {
-        // !Una forma muy poderosa de usar HTML dentro de JS vainilla, se crea un fragmento HTML
+        // !Una forma muy poderosa de usar HTML dentro de JS vanilla, se crea un fragmento HTML
         const contenido = document.createRange().createContextualFragment(`
             <div class="contenedor_personaje">
                 <h2>${personaje.name}</h2>
